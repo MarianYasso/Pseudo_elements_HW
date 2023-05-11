@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 20px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    margin: 30px 0 0 0;
+}
+.content{
+    max-width: 841px;
+    margin: 0 auto;
+}
+.text{
+    margin: 20px 0;
+}
+.first_text{
+    padding: 0 0 30px 0;
+}
+.first_text:first-line{
+    color: #fd0000;
+}
+.second_text{
+    padding: 0 0 30px 0;
+}
+.second_text:first-letter{
+    color: #fd0000;
+    font-size: 40px;
+}
+.list li{
+    padding: 0 0 20px 0;
+    font-family: Arial sans-serif;
+}
+.list li:before{
+    content: url("../images/li.svg");
+    padding: 0 20px 0 0;
+}
+.list li:hover:before{
+    content: url("../images/hover_li.svg");
+}
+.list li:hover{
+    color: #fd0000;
+}
+.link{
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 24px;
+    background-color: #80b7b3;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    padding: 0 30px;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:  0 5px 1px rgba(0, 0, 0, 0.5);
+}
+.link span:after{
+    content: url("../images/pointer.svg");
+    position: relative;
+    left: 9px;
+    top: 2px;
+}
+.link:hover{
+    background-color: #5e9565;
+}
+.link:active{
+    background-color: #77c180;
+    top: 3px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:  0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+
